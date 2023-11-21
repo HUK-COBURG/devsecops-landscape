@@ -157,13 +157,14 @@ home:
     <h1>CNCF Cloud Native Interactive Landscape</h1> The cloud native landscape (<a target="_blank" href="images/landscape.png">png</a>, <a target="_blank"
     href="images/landscape.pdf">pdf</a>), serverless landscape (<a target="_blank" href="images/serverless.png">png</a>, <a target="_blank"
     href="images/serverless.pdf">pdf</a>), and member landscape (<a target="_blank" href="images/members.png">png</a>, <a target="_blank"
-    href="images/members.pdf">pdf</a>) are dynamically generated below.
+    href="images/members.pdf">pdf</a>) are dynamically generated below. <h1><a href="https://cncf.landscape2.io/" target="_blank"> Check Landscape V2.0
+    Here!</a></h1>
   footer: |
     Crunchbase data is used under license from Crunchbase to CNCF.
 ads:
-  - url: https://events.linuxfoundation.org/cdcon-gitopscon/
-    image: /images/cdcon-gitopscon-mobile.jpg
-    title: cdCon + GitOpsCon
+  - url: https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/
+    image: /images/kubecon-cloudnativecon-north-america-2023.png
+    title: KubeCon + CloudNativeCon North America 2023
 presets:
   - url: /format=card-mode&grouping=no&license=open-source&sort=first-commit
     label: Cards by age
@@ -192,18 +193,18 @@ big_picture:
     elements:
       - type: HorizontalCategory
         category: App Definition and Development
-        rows: 8
+        rows: 9
         width: 1265
-        height: 340
+        height: 370
         top: 0
         left: 0
         color: rgb(109,61,143)
       - type: HorizontalCategory
         category: Orchestration & Management
-        rows: 4
+        rows: 5
         width: 1265
-        height: 200
-        top: 350
+        height: 240
+        top: 380
         left: 0
         color: rgb(46,107,46)
       - type: HorizontalCategory
@@ -211,15 +212,15 @@ big_picture:
         rows: 5
         width: 1265
         height: 250
-        top: 560
+        top: 630
         left: 0
         color: rgb(143,88,61)
       - type: HorizontalCategory
         category: Provisioning
         rows: 8
         width: 1265
-        height: 270
-        top: 825
+        height: 310
+        top: 895
         left: 0
         color: rgb(46,97,107)
       - type: VerticalCategory
@@ -234,7 +235,7 @@ big_picture:
         category: Observability and Analysis
         cols: 10
         width: 455
-        height: 860
+        height: 930
         top: 660
         left: 1285
         color: rgb(107,61,46)
@@ -243,13 +244,13 @@ big_picture:
         rows: 10
         width: 1265
         height: 400
-        top: 1120
+        top: 1230
         left: 0
         color: rgb(179,77,77)
       - type: LandscapeInfo
         width: 370
         height: 280
-        top: 1240
+        top: 1310
         left: 1760
         children:
           - type: text
@@ -561,57 +562,97 @@ big_picture:
     category: Wasm
     elements:
       - type: VerticalCategory
-        category: Specifications
+        category: Languages
         width: 180
-        height: 500
+        height: 200
         top: 0
         left: 0
         color: rgb(109,61,143)
         fit_width: true
       - type: VerticalCategory
-        category: Runtime
+        category: Runtimes
         width: 180
-        height: 500
+        height: 200
         top: 0
         left: 200
         color: rgb(46,107,46)
         fit_width: true
       - type: VerticalCategory
-        category: Toolchain
+        category: Application Frameworks
         width: 180
-        height: 500
+        height: 200
         top: 0
         left: 400
         color: rgb(46,97,107)
         fit_width: true
       - type: VerticalCategory
-        category: Packaging, Registries & Application Delivery
+        category: Edge/Bare metal
         width: 180
-        height: 350
+        height: 200
         top: 0
         left: 600
         color: rgb(107,97,46)
         fit_width: true
       - type: VerticalCategory
-        category: Debugging and Observability
+        category: AI/Machine Learning
         width: 180
         height: 130
-        top: 370
-        left: 600
+        top: 0
+        left: 800
         color: rgb(179,77,77)
         fit_width: true
       - type: VerticalCategory
-        category: Installable Platform
+        category: Embedded Functions
         width: 180
-        height: 500
+        height: 200
         top: 0
-        left: 800
+        left: 1000
+        color: rgb(143,109,61)
+        fit_width: true
+      - type: VerticalCategory
+        category: Tooling
+        width: 180
+        height: 200
+        top: 0
+        left: 1200
+        color: rgb(143,109,61)
+        fit_width: true
+      - type: VerticalCategory
+        category: Orchestration & Management
+        width: 180
+        height: 210
+        top: 220
+        left: 0
+        color: rgb(143,109,61)
+        fit_width: true
+      - type: VerticalCategory
+        category: Hosted Platforms
+        width: 180
+        height: 200
+        top: 220
+        left: 200
+        color: rgb(143,109,61)
+        fit_width: true
+      - type: VerticalCategory
+        category: Decentralized Platforms
+        width: 180
+        height: 200
+        top: 220
+        left: 400
+        color: rgb(143,109,61)
+        fit_width: true
+      - type: VerticalCategory
+        category: Debugging & Observability
+        width: 180
+        height: 100
+        top: 220
+        left: 600
         color: rgb(143,109,61)
         fit_width: true
       - type: LandscapeInfo
         width: 520
         height: 120
-        top: 500
+        top: 540
         left: 0
         children:
           - type: text
